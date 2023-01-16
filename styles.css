@@ -1,0 +1,65 @@
+#title {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+}
+#description {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+#survey-form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}  
+#survey-form label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+#survey-form input[type="text"],
+#survey-form input[type="email"],
+#survey-form input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+#survey-form select {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+#survey-form textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+#survey-form input[type="radio"],
+#survey-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+#submit {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #45a049;
+}

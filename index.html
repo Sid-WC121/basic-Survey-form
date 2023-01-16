@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out the following survey to help us improve our service.</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <br>
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <br>
+        <label for="number" id="number-label">Number:</label>
+        <input type="number" id="number" min="1" max="10" placeholder="Enter a number between 1 and 10">
+        <br>
+        <label for="dropdown" id="dropdown-label">Select an option:</label>
+        <select id="dropdown">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+        </select>
+        <br>
+        <label>Select a radio button:</label>
+        <input type="radio" name="radio-group" value="radio1">Radio 1
+        <input type="radio" name="radio-group" value="radio2">Radio 2
+        <br>
+        <label>Select multiple checkboxes:</label>
+        <input type="checkbox" name="checkbox" value="checkbox1">Checkbox 1
+        <input type="checkbox" name="checkbox" value="checkbox2">Checkbox 2
+        <input type="checkbox" name="checkbox" value="checkbox3">Checkbox 3
+        <br>
+        <label for="comments" id="comments-label">Additional comments:</label>
+        <textarea id="comments"></textarea>
+        <br>
+        <button id="submit">Submit</button>
+    </form>
+</body>
+</html>
